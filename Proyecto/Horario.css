@@ -1,0 +1,204 @@
+
+  * {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    margin-top: 0;
+  }
+
+  ul {
+    list-style: none;
+   background-color: black;
+
+  }
+
+  ul li {
+    display: inline-block;
+    position: relative;
+    margin-top: 25px;
+  }
+
+  ul li a {
+    display: block;
+    padding: 20px 30px;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  ul li ul.dropdown li {
+    display: block;
+  }
+
+
+  ul li ul.dropdown {
+    width: 200%;
+   background: 303232;
+    position: absolute;
+    z-index: 999;
+    display: none;
+  }
+
+  ul li a:hover {
+    background: #3694C7;
+  }
+
+  ul li:hover ul.dropdown {
+    display: block;
+  }
+
+
+.footer {
+
+ background-color: black;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: whitesmoke;
+  font-size: 100px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  overflow: hidden;
+  top: calc(100vh - 50px); /* Ajusta el valor de top según la altura del footer */
+
+}
+
+.footer ul li {
+  transform: translateY(-25px);
+}
+
+
+.logo{
+     display: flex;
+    justify-content: flex-end;
+}
+
+.logo img {
+    height: 100px;
+    margin-right: 10px;
+    margin-top: -100px; 
+}
+
+
+.banner {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner .info {
+  font-size: 24px;
+}
+
+
+.info {
+  z-index: 1;
+  width: 100%;
+  max-width: 550px;
+  text-align: center;
+}
+
+.info h1 {
+  color: #fff;
+  font-size: 45px;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.info p {
+  color: #c7c7c7;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.info a {
+  color: #fff;
+  text-decoration: none;
+  background: #3088e0;
+  padding: 16px 37px;
+  display: inline-block;
+  border-radius: 50px;
+}
+
+/* Estilos para la tabla*/
+.Horario {
+  text-align: center;
+  margin-top: -600px;
+}
+
+.Horario h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.Horario1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.Horario1 table {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 600px;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.Horario1 th,
+.Horario1 td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.Horario1 th {
+  background-color: #skyblue;
+  font-weight: bold;
+}
+
+.Horario1 tr:nth-child(even) {
+  background-color: #white;
+}
+
+.Horario1 tr:hover {
+  background-color: #e5e5e5;
+}
+
+
+th, td {
+    width: 25%;
+    text-align: center;
+    vertical-align: top;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 0.3em;
+ }
+
+
+
+th {
+   background: #4d7bb9;
+}
+
+
+
+body {
+ 
+    background-image: url("https://i.postimg.cc/sf87FZj3/Degradado.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+/*Codigo para que la imagen se quede fija mientras bajamos*/
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Manjari', sans-serif;
+    
+}

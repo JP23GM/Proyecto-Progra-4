@@ -1,0 +1,138 @@
+
+  * {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    margin-top: 0;
+  }
+
+  ul {
+    list-style: none;
+   background-color: black;
+
+  }
+
+  ul li {
+    display: inline-block;
+    position: relative;
+    margin-top: 25px;
+  }
+
+  ul li a {
+    display: block;
+    padding: 20px 30px;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  ul li ul.dropdown li {
+    display: block;
+  }
+
+
+  ul li ul.dropdown {
+    width: 200%;
+   background: 303232;
+    position: absolute;
+    z-index: 999;
+    display: none;
+  }
+
+  ul li a:hover {
+    background: #3694C7;
+  }
+
+  ul li:hover ul.dropdown {
+    display: block;
+  }
+
+
+.footer {
+
+ background-color: black;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: whitesmoke;
+  font-size: 100px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  overflow: hidden;
+  top: calc(100vh - 50px); /* Ajusta el valor de top según la altura del footer */
+
+}
+
+.footer ul li {
+  transform: translateY(-25px);
+}
+
+
+.logo{
+     display: flex;
+    justify-content: flex-end;
+}
+
+.logo img {
+    height: 100px;
+    margin-right: 10px;
+    margin-top: -100px; 
+}
+
+
+
+
+body {
+ 
+    background-image: url("https://i.postimg.cc/sf87FZj3/Degradado.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+/*Codigo para que la imagen se quede fija mientras bajamos*/
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Manjari', sans-serif;
+    
+}
+
+
+
+
+div.galeria {
+
+    margin: 100px 60px;
+    float: right;
+    width: 250px;
+   background-attachment: fixed;
+}
+
+div.galeria img {
+    width: 100%;
+    height: auto;
+}
+
+div.galeria:hover {
+    border: 1px solid lightcoral;
+    transform: rotate(-3deg);
+}
+
+
+div.pie {
+    text-align: center;
+    text-shadow: 2px 2px 5px purple;
+    padding: 10px;
+}
+
+h1 {
+    color: black;
+    text-shadow: 1px 2px 2px black;
+    text-align: center;
+    margin-top: 10px;
+}
